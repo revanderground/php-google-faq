@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+
+p{
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 10px 0;
+    line-height: 1.714;
+    padding-top: 20px;
+}
+
+li {
+    line-height: 1.714;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
+body {
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.54;
+}
+
+h1{
+    font-family: Roboto,arial,sans-serif;
+}
+
+h2{
+    font-family: 'Google Sans', sans-serif;
+    color: #3c4043;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.333;
+    margin: 0;
+    padding: 32px 0 0 0;
+}
