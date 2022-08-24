@@ -1,4 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+
+/* Header */
+header{
+    box-sizing: border-box;
+    border-bottom: 1.1px solid #c3c3c3;
+}
+
+.logo-icon{    
+    height: 60px;
+}
+
+.privacy{
+    color: #5f6368;
+    opacity: 1;
+    display: inline-block;
+    font-family: "Product Sans",Arial,sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+
+}
+
+
+ul{
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+ul li{
+    list-style-type: none;
+    color: #5f6368;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Google Sans",sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-right: 40px;
+    padding: 0px; 
+    border-bottom: 2px solid transparent;
+
+}
+
+ul li:hover{
+    border-bottom: 2px solid rgb(0, 110, 255); 
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+ul li:active{
+    border-bottom: 2px solid rgb(0, 110, 255); 
+    color: rgb(0, 110, 255);
+}
+
+.active{
+    border-bottom: 2px solid rgb(0, 110, 255); 
+    color: rgb(0, 110, 255);
+}
+
+/* Main */
 
 p{
 
